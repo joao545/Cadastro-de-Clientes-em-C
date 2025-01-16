@@ -62,12 +62,12 @@ int main(){
                     scanf("%s", clientes[numClientes].email);
 
                     printf("Cliente editado com sucesso. \n\n");
-                    break;
+                   
                 }
+                 
             }
+            break;
         }
-
-        system("Pause");
 
         case 4: {
             char nome[100];
@@ -84,7 +84,7 @@ int main(){
                     numClientes--;
 
                     printf("Cliente excluido com sucesso. \n\n");
-                    break;
+                    ;
                 }
             }
             break;
@@ -93,6 +93,8 @@ int main(){
         case 5:
             printf("Encerrando o programa... \n");
             break;
+        
+        
         default:
             printf("Opcao Invalida");
             break;
