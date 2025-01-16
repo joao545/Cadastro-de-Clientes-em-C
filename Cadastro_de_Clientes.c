@@ -56,10 +56,10 @@ int main(){
             for (int i = 0; i < numClientes; i++) {
                 if(strcmp(clientes[i].nome, nome) == 0) {
                     printf("Digite o novo nome do cliente: ");
-                    scanf("%s", clientes[numClientes].nome);
+                    scanf("%s", clientes[i].nome);
 
                     printf("Digite o novo email do cliente: ");
-                    scanf("%s", clientes[numClientes].email);
+                    scanf("%s", clientes[i].email);
 
                     printf("Cliente editado com sucesso. \n\n");
                    
@@ -94,7 +94,7 @@ int main(){
             printf("Encerrando o programa... \n");
             break;
         
-        
+
         default:
             printf("Opcao Invalida");
             break;
